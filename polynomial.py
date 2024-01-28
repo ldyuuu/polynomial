@@ -38,7 +38,7 @@ class Sub:
         self.p2 = p2
 
     def __repr__(self):
-        return "(" + repr(self.p1) + ") - (" + repr(self.p2) + ")"
+        return repr(self.p1) + " - " + repr(self.p2)
 
     def evaluate(self, x_value):
         return self.p1.evaluate(x_value) - self.p2.evaluate(x_value)
